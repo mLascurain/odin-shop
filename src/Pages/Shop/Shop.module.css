@@ -1,0 +1,21 @@
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.title {
+  text-align: center;
+  margin: 20px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}

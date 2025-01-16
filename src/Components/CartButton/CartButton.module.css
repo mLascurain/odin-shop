@@ -1,0 +1,143 @@
+/* General Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: #121212;
+  color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.closeButton {
+  background-color: #e53935;
+  border: none;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.closeButton:hover {
+  background-color: #c62828;
+}
+
+/* Empty Cart */
+.emptyCart {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #bdbdbd;
+}
+
+/* List Styles */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e1e;
+  padding: 0.8rem;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.itemDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.itemName {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.itemPrice {
+  font-size: 0.9rem;
+  color: #bdbdbd;
+}
+
+/* Quantity Controls */
+.quantityControls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.quantityButton {
+  background-color: #1db954;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.3rem 0.8rem;
+}
+
+.quantityButton:hover {
+  background-color: #17a846;
+}
+
+.quantity {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Remove Button */
+.removeButton {
+  background-color: #e53935;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.3rem 0.8rem;
+}
+
+.removeButton:hover {
+  background-color: #c62828;
+}
+
+/* Badge */
+.button {
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #ff5252;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #121212;
+}
